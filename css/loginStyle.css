@@ -1,0 +1,153 @@
+/* -----------------------------------Login FORM_------------------------------ */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+body{
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)),url(/img/extra/backwallpaper.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+}
+
+
+#login{
+    display: block;
+    margin: auto;
+    position: relative;
+    margin-top: 70px;
+    width: 400px;
+    height: 520px;
+    border: 1px solid transparent;
+    padding: 5px;
+	background: #fff8;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0px 0px 100px rgba(0,0,0,0.4);
+}
+#login h4{
+    border: 1px solid #FA4B37;
+    display: block;
+    text-align: center;
+    margin: 20px 150px;
+    border-radius: 40px;
+    color: #fff;
+    padding: 3px;
+	background: linear-gradient(to right, #FA4B37, #DF2771);
+
+}
+.social-icons
+{
+	margin: 30px auto;
+	text-align: center;
+}
+.social-icons img
+{
+	width: 30px;
+	margin: 0 7px;
+	cursor: pointer;
+	opacity: 0.85;
+}
+.login-form{
+    margin: 20px;
+    font-size: 15px;
+}
+
+.inp{
+    text-align: center;
+    margin: 30px;
+    border-bottom: 1px solid black;
+}
+
+.inp img{
+	width: 30px;
+	padding-right: 10px;
+}
+.inp input{
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+	outline: none;
+	background: transparent;
+	color: rgba(0,0,0);
+    margin-bottom: 10px;
+}
+
+.login-form .check-box{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.login-form button{
+    position: relative;
+    top: 30px;
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #FA4B37, #DF2771);
+	color: #fff;
+	border: 0;
+	outline: none;
+	border-radius: 30px;    
+}
+#login p{
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+#login a{
+    font-weight: 600;
+     color: red;
+}
+
+.other{
+    margin-top: 50px;
+}
+
+.connect{
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    width: 200px;
+    height: 40px;
+}
+.connect img{
+    width: 30px;
+}
+
+.instead {
+	margin-top: 10px;
+}
+.instead h3 {
+    overflow: hidden;
+    text-align: center;
+    color: rgba(0,0,0,0.6);
+}
+.instead h3:before,
+.instead h3:after {
+    background-color: rgba(0,0,0,0.5);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.instead h3:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.instead h3:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
